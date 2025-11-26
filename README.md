@@ -7,9 +7,13 @@ Folder for the third RL homework
 
 This package is supposed to be used together with PX4-Autopilot package. 
 To perform the correct use of the files contained in this repository, ensure to place them in the correct following path:
+
 PX4-Autopilot/Tools/simulation/gz/models/**dmmf_drone**
+
 PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes/**CMakeLists.txt**
+
 `PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes/`**4022_gz_dmmf_drone**
+
 `PX4-Autopilot/src/modules/uxrce_dds_client/`**dds_topic.yaml**
 
 reganding the bag files and the `aerial_robotics` folder, place them in the folder connected with your aerial_robotic's docker image.
